@@ -1,0 +1,5 @@
+Log back into your home router's administrative dashboard
+Navigate to the LAN / DHCP Settings section
+Locate the DHCP Server DNS Assignment
+Change the primary DNS server IP address from your ISP's default to your Raspberry Pi's Static IP Address
+Save settings and restart your router or release/renew IP leases on your local client devices to push the new DNS configuration network-wide
