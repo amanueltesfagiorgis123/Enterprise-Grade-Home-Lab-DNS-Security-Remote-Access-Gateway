@@ -1,0 +1,2 @@
+I ran into an issue when prompted for a password on SSH on my laptop not working properly (solution: know your pi password and login name).
+I also ran into an issue trying to change my Xfinity DNS settings to  my Pi  IP, and Xfinity doesn't allow universal DNS changes ( solution: you can configure each device's network settings manually, and it should work)  
