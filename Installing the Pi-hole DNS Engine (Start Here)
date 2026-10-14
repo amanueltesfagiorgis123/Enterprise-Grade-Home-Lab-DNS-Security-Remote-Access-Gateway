@@ -1,0 +1,15 @@
+Using another laptop, establish an SSH session to your Raspberry Pi from your terminal. 
+Execute the official automated installation script.
+Step through the interactive text installer.
+Make sure to pick Google or Cloudflare as the DNS server.
+Remember to save  the randomly generated Admin Web Password displayed at the final confirmation screen.
+You are also going to be given an admin page for tracking.
+
+
+Code
+ssh pi@<yourraspberryipthatyoumade> (has to be static)
+curl -sSL https://install.pi-hole.net | bash (this helps you install the Pi-hole service on your Pi)
+
+
+
+
